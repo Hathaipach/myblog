@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Testing Guide</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Table of Contents: Software Testing Guide</h1>
+    </header>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://hathaipach.github.io/">Contact</a></li>
+    </ul>
+    <div id="toc">
+    <h1>Regression Testing Design</h1>
+    <table border="1">
+        <tr>
+            <th>Test Case ID</th>
+            <th>Test Case Description</th>
+            <th>Test Steps</th>
+            <th>Expected Result</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>TC001</td>
+            <td>Login with valid credentials</td>
+            <td>
+                1. Open the application<br>
+                2. Enter valid username and password<br>
+                3. Click the Login button
+            </td>
+            <td>User should be logged in</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>TC002</td>
+            <td>Login with invalid credentials</td>
+            <td>
+                1. Open the application<br>
+                2. Enter invalid username and password<br>
+                3. Click the Login button
+            </td>
+            <td>Error message should be displayed</td>
+            <td>Fail</td>
+        </tr>
+        <tr>
+            <td>TC003</td>
+            <td>Update user profile</td>
+            <td>
+                1. Log in with valid credentials<br>
+                2. Navigate to the profile page<br>
+                3. Update profile information<br>
+                4. Save changes
+            </td>
+            <td>Profile should be updated successfully</td>
+            <td>Pass</td>
+        </tr>
+        <!-- Add more test cases as needed -->
+    </table>
+    </div>
+</body>
+</html>

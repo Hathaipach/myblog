@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8!important;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    font-size: 24px;
+}
+#toc {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Style for the unordered list */
+ul {
+    margin-left: 20px;    /* Add some left margin for indentation */
+    padding-left: 10px;   /* Add padding for better spacing */
+}
+
+/* Style for list items */
+li {
+
+    font-size: 16px;      /* Set the font size for list items */
+    line-height: 1.5;     /* Set the line height for better readability */
+    margin-bottom: 10px;  /* Add space between list items */
+}
+li a:hover {
+    color: #003cff;
+}
+
+
+/* Reset default list styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the menu */
+.menu {
+    background-color: #333;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 20px; /* Add some space between menu items */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Change link color on hover */
+.menu a:hover {
+    color: #ff6600;
+}
+
+
+/* Style the menu table */
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
